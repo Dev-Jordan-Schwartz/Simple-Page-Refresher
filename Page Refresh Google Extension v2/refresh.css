@@ -1,0 +1,49 @@
+body {
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    font-family: Roboto;
+    color: grey;
+}
+h1 {
+    font-weight: 400;
+}
+h2 {
+    font-weight: 400;
+}
+.stop-btn{
+    float: right; 
+    margin-top: 20px;
+    background-color: red;
+    margin-right: 10px;
+}
+.start-btn{
+    float: right; 
+    margin-top: 20px;
+    background-color: rgb(22, 116, 64);
+    margin-right: 10px;
+}
+button {
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Space between radio button and label pairs */
+}
+
+.radio-container input[type="radio"] {
+    margin-right: 8px; /* Space between radio button and label */
+}
+.custom-interval {
+    margin-top: 15px;
+}
